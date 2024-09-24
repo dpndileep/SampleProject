@@ -1,0 +1,9 @@
+The function 'characterOccurrences' takes a string 'inputString' as an argument and returns a map where the keys are char and the values are integers.
+
+1. 'counts := make(map[rune]int)': This line initializes a new map 'counts' where the keys are char and the values are integers. This map will be used to store the count of each character in the string 'inputString'.
+
+2. 'for _, char := range inputString': This line starts a for loop that iterates over each character 'char' in the string 'inputString'. 
+
+3. 'counts[char]++': Increments the corresponding entry in the map 'counts'. If the character does not exist in the map, it gets added with a count of 1. If it does exist, its count gets incremented by 1.
+
+4. 'return counts': After all characters in the string have been processed, the function returns the map 'counts', which now contains the count of each character in the string.
