@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println(characterOccurrences("Hello"))
-	fmt.Scanln()
 }
 
 // Function counts the occurrence of each character in a string.
